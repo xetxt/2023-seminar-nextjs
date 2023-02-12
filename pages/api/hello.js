@@ -1,5 +1,6 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+// Next.js の API Routes について: https://nextjs.org/docs/api-routes/introduction
 
 export default function handler(req, res) {
-  res.status(200).json({ name: 'John Doe' })
+  // 実在する人物とは関係ありません
+  res.status(200).json({ name: '江崎 太郎' });
 }
