@@ -2,11 +2,12 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    font-size: 20px;
 }
 
 h1 {
     /* カラーネーム一覧: https://www.htmq.com/color/colorname.shtml */
-    color: lightseagreen;
+    color: red;
 }
 
 .container-row {
@@ -20,7 +21,7 @@ h1 {
 }
 
 .border-box {
-    border: 0.1rem solid gray;
+    border: 0.1rem solid green;
     border-radius: 1rem;
     padding: 1rem;
 }
@@ -45,4 +46,10 @@ h1 {
 
 .margin-3rem {
     margin: 3rem;
+}
+
+.blue {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
 }

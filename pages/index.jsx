@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <h1>
-          Webフロントエンド/バックエンドのゼミへようこそ！
+          寿司食べにいきます
         </h1>
 
         <div className="container-row">
