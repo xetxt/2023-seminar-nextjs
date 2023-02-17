@@ -10,6 +10,7 @@ export default function TutorialMap() {
       </Head>
 
       <main>
+<<<<<<< HEAD
         {fruits.map((item) => (
           <p key={item}>
             {item}
@@ -19,3 +20,24 @@ export default function TutorialMap() {
     </>
   );
 }
+=======
+        {/* {fruits.map((item) => (
+          <p key={item}>
+            {item}さん
+          </p>
+        ))} */}
+
+        <p>
+          いちごさん
+        </p>
+        <p>
+          メロンさん
+        </p>
+        <p>
+          ぶどうさん
+        </p>
+      </main>
+    </>
+  );
+}
+>>>>>>> af2ae9f70d088f83a73f47b577327adbf7975e3f

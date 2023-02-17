@@ -37,6 +37,7 @@ export default function Weather({ info }) {
 
         <h2>{info.forecasts[2].date}</h2>
         {info.forecasts[2].telop}
+<<<<<<< HEAD
 
         <h2>{info.forecasts[2].date}</h2>
         {info.forecasts[2].telop}
@@ -44,3 +45,9 @@ export default function Weather({ info }) {
     </>
   );
 }
+=======
+      </main>
+    </>
+  );
+}
+>>>>>>> af2ae9f70d088f83a73f47b577327adbf7975e3f
